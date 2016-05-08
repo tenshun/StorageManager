@@ -1,0 +1,14 @@
+//
+// Created by Sad on 14.03.2016.
+//
+
+#ifndef COURSE_WORK_ALGO_INMEMORYDATASERVICE_H
+#define COURSE_WORK_ALGO_INMEMORYDATASERVICE_H
+
+
+class InMemoryDataService {
+
+};
+
+
+#endif //COURSE_WORK_ALGO_INMEMORYDATASERVICE_H
