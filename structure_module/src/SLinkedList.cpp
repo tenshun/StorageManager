@@ -1,5 +1,5 @@
 #include <cstddef>
-#include "SLinkedList.h"
+#include <include/SLinkedList.h>
 #include "SNode.h"
 
 template<typename E>

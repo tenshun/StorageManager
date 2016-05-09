@@ -2,13 +2,17 @@
 // Created by Sad on 07.05.2016.
 //
 
+#include <sub_module/include/CellCreator.h>
 #include "structure_module/include/Section.h"
 
-int main(){
-    Section<std::string> section(100);
+int main() {
+    //Section *section = new Section();
 
-    std::cout << "asda" <<
-    section.push("some shit");
+
+    Cell *cell = CellCreator::getCell();
+    std::cout << cell->getNumber();
+
+    //section->push(cell);
 
 
 }
