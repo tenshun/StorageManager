@@ -13,6 +13,6 @@ long Cell::getNumber() const {
     return numberOfCell;
 }
 
-void Cell::setNumber(long number) {
+void Cell::setNumber(int number) {
     Cell::numberOfCell = number;
 }

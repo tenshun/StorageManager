@@ -3,14 +3,15 @@
 
 
 #include <iostream>
+#include <src/substructures/SLinkedList.h>
 #include "string"
 #include "Cell.h"
 
 typedef Cell Elem;
 class Section {
 private:
-
-
+    SLinkedList<Elem> S;
+    int n;
 public:
     Section(); // constructor
     int size() const; // number of items in the stack

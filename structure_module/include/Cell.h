@@ -4,7 +4,7 @@
 class Cell {
 private:
     bool available;
-    long numberOfCell;
+    int numberOfCell;
 public:
     bool isAvailable() const;
 
@@ -12,7 +12,7 @@ public:
 
     long getNumber() const;
 
-    void setNumber(long number);
+    void setNumber(int number);
 };
 
 #endif //COURSE_WORK_ALGO_SELL_H
