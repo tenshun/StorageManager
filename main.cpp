@@ -9,10 +9,25 @@ int main() {
     //Section *section = new Section();
 
 
-    Cell *cell = CellCreator::getCell();
-    std::cout << cell->getNumber();
+    SLinkedList<int> list;
+    list.addFront(1);
+    list.addFront(2);
+    list.addFront(3);
+    list.addFront(4);
+    list.addFront(5);
 
-    //section->push(cell);
+    SNode<int>* node = list.search(3);
+    if(node != NULL){
+        std::cout << "YEAY! 1 " ;
+    }
+
+    list.remove(5);
+
+    if(list.search(5) != NULL){
+        std::cout << "YEAY! 2 " ;
+    } else std::cout << "\n NOPE";
+
+
 
 
 }
