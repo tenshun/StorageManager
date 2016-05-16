@@ -1,4 +1,4 @@
-# StorageManager
+# Storage Manager
 - C++
 - QT
 - PugiXML
